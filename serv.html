@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Karnataka Tourism - Government Services</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #1b5e20;
+      color: white;
+      padding: 1.5rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+    nav {
+      background: #388e3c;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      display: inline-block;
+      padding: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background: #2e7d32;
+    }
+    main {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      color: #2e7d32;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+    }
+    ul {
+      list-style-type: square;
+      padding-left: 1.5rem;
+    }
+    form {
+      background: white;
+      padding: 1.5rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border-radius: 6px;
+    }
+    form label {
+      display: block;
+      margin-top: 1rem;
+      font-weight: 600;
+    }
+    form input, form textarea, form select {
+      width: 100%;
+      padding: 0.6rem;
+      margin-top: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+    form button {
+      margin-top: 1.5rem;
+      background: #388e3c;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    form button:hover {
+      background: #2e7d32;
+    }
+    footer {
+      background: #1b5e20;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Karnataka Tourism - Government Services</h1>
+</header>
+
+
+
+<main>
+  <section>
+    <h2>Government Services for Tourists</h2>
+    <ul>
+      <li><strong>Online Travel Permits:</strong> Apply for forest, heritage, or restricted area permits.</li>
+      <li><strong>Local Guide Booking:</strong> Certified multilingual guides for tourist sites.</li>
+      <li><strong>Hotel Recommendations:</strong> Verified government-approved accommodations.</li>
+      <li><strong>Tourist Grievance Portal:</strong> File complaints and track responses.</li>
+      <li><strong>Lost & Found Service:</strong> Help for lost belongings and documents.</li>
+      <li><strong>Emergency Helpline:</strong> 24x7 support for tourists in distress.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Request a Service</h2>
+    <form>
+      <label for="name">Your Full Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="service">Select a Service</label>
+      <select id="service" name="service" required>
+        <option value="">-- Select --</option>
+        <option value="permit">Travel Permit</option>
+        <option value="guide">Book a Local Guide</option>
+        <option value="complaint">File a Complaint</option>
+        <option value="emergency">Emergency Support</option>
+      </select>
+
+      <label for="details">Additional Details</label>
+      <textarea id="details" name="details" rows="4" required></textarea>
+
+      <button type="submit">Submit Request</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:support@karnatakatourism.gov.in">support@karnatakatourism.gov.in</a></p>
+    <p>Phone: +91 80 1234 5678</p>
+    <p>Address: Karnataka Tourism Department, Bengaluru, India</p>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 Karnataka Tourism Department. All rights reserved.
+</footer>
+
+</body>
+</html>
