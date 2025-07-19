@@ -1,16 +1,237 @@
-## Hi there 👋
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Karnataka Tourism & e-Governance</title>
+<style>
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background: #f0f8ff;
+    color: #333;
+  }
+  header {
+    background: #004d40; /* dark green */
+    color: #fff;
+    padding: 1rem 2rem;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  nav {
+    background: #00796b;
+    display: flex;
+    justify-content: center;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    display: inline-block;
+    font-weight: 600;
+    transition: background 0.3s;
+  }
+  nav a:hover {
+    background: #004d40;
+  }
+  main {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  section {
+    margin-bottom: 3rem;
+  }
+  h2 {
+    border-bottom: 3px solid #00796b;
+    padding-bottom: 0.5rem;
+  }
+  /* Tourism Cards */
+  .tourism-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  .card {
+    background: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    width: 300px;
+    overflow: hidden;
+  }
+  .card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  .card-content {
+    padding: 1rem;
+  }
+  .card-content h3 {
+    margin: 0 0 0.5rem;
+  }
+  .card-content p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+  /* e-Gov form */
+  form {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: auto;
+  }
+  form label {
+    display: block;
+    margin-bottom: 0.4rem;
+    font-weight: 600;
+  }
+  form input, form select, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  form button {
+    background: #00796b;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  form button:hover {
+    background: #004d40;
+  }
+  footer {
+    background: #004d40;
+    color: white;
+    text-align: center;
+    padding: 1rem 2rem;
+    margin-top: 3rem;
+  }
+  @media(max-width: 768px) {
+    .tourism-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+</style>
+</head>
+<body>
 
-<!--
-**amantarikere/amantarikere** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<header>
+  <h1>Welcome to Karnataka Tourism & e-Governance Portal</h1>
+</header>
 
-Here are some ideas to get you started:
+<nav>
+  <a href="HOME">Home</a>
+  <a href="F:\dip_test\place.html">Tourism</a>
+  <a href="F:\dip_test\serv.html">Government Services</a>
+  <a href="F:\dip_test\con.html">Contact</a>
+  <a href="F:\dip_test\login.html">Login</a>
+</nav>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<main>
+  <section id="home">
+    <h2>Discover Karnataka</h2>
+    <p>
+      Karnataka is a land of diverse culture, heritage, and natural beauty. Explore historic palaces, lush hills, beaches, and vibrant festivals. This portal also enables you to access government services easily from your home.
+    </p>
+  </section>
+
+  <section id="tourism">
+    <h2>Top Tourist Attractions</h2>
+    <div class="tourism-cards">
+      <div class="card">
+        <img src="F:\dip_test\OIP.jpg" alt="Mysore Palace" />
+        <div class="card-content">
+          <h3>Mysore Palace</h3>
+          <p>The magnificent Mysore Palace is a stunning example of Indo-Saracenic architecture and a key attraction in Karnataka.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="F:\dip_test\OIP (1).jpg"alt="Hampi" />
+        <div class="card-content">
+          <h3>Hampi</h3>
+          <p>Explore the ancient ruins of the Vijayanagara Empire, a UNESCO World Heritage Site filled with magnificent temples and monuments.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="F:\dip_test\COORG.jpg" alt="Coorg" />
+        <div class="card-content">
+          <h3>Coorg</h3>
+          <p>Known as the Scotland of India, Coorg offers lush coffee plantations, waterfalls, and breathtaking hills.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="F:\dip_test\OIP (2).jpg" alt="Badami" />
+        <div class="card-content">
+          <h3>Badami Caves</h3>
+          <p>Ancient rock-cut temples famous for their carvings and sculptures dating back to the 6th century.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>Government Services Request</h2>
+    <form id="serviceForm">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required placeholder="Your full name" />
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required placeholder="your.email@example.com" />
+
+      <label for="service">Select Service</label>
+      <select id="service" name="service" required>
+        <option value="">-- Choose a service --</option>
+        <option value="tourist-permit">Tourist Permit</option>
+        <option value="local-guide-request">Local Guide Request</option>
+        <option value="feedback">Tourism Feedback</option>
+        <option value="complaint">Complaint / Grievance</option>
+      </select>
+
+      <label for="details">Details</label>
+      <textarea id="details" name="details" rows="4" placeholder="Provide additional details here..." required></textarea>
+
+      <button type="submit">Submit Request</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: support@karnatakatourism.gov.in</p>
+    <p>Phone: +91 80 1234 5678</p>
+    <p>Address: Karnataka Tourism Office, Bengaluru, Karnataka, India</p>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 Karnataka Tourism & e-Governance Portal. All rights reserved.
+</footer>
+
+<script>
+  // Simple form submission handler
+  document.getElementById('serviceForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    alert('Thank you for your request! Our team will get back to you shortly.');
+    this.reset();
+  });
+</script>
+
+</body>
+</html>
